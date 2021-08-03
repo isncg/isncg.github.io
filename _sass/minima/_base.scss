@@ -1,6 +1,12 @@
 /**
  * Reset some basic elements
  */
+ 
+@font-face {
+  font-family: sarasa;//自定义字体名称
+  src: url(../font/sarasa-mono-sc-regular.ttf)
+}
+
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
@@ -152,6 +158,7 @@ code {
   @include relative-font-size(0.9375);
   border: 1px solid $grey-color-light;
   border-radius: 3px;
+  font-family: sarasa;
   // background-color: #eef;
 }
 
